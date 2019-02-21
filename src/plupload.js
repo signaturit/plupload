@@ -1496,8 +1496,10 @@ plupload.Uploader = function(options) {
 
 		function uploadChunk(args, chunkBlob, curChunkSize) {
 			var formData;
-
-			xhr = new o.xhr.XMLHttpRequest();
+            xhr = new o.xhr.XMLHttpRequest();
+           
+            // custom edit
+            xhr.withCredentials = true;
 
 			// Do we have upload progress support
 			if (xhr.upload) {

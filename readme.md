@@ -50,7 +50,7 @@ Quickly enough though, Plupload grew big.  It easily split into a standalone pro
 With major *version 2.0* it underwent another huge reconstruction, basically
 [from the ground up](http://blog.moxiecode.com/2012/11/28/first-public-beta-plupload-2/),
 as all the low-level runtime logic has been extracted into separate [File API](http://www.w3.org/TR/FileAPI/)
-and [XHR L2](http://www.w3.org/TR/XMLHttpRequest/) pollyfills (currently known under combined name of [mOxie](https://github.com/moxiecode/moxie)),
+and [XHR L2](http://www.w3.org/TR/XMLHttpRequest/) polyfills (currently known under combined name of [mOxie](https://github.com/moxiecode/moxie)),
 giving Plupload a chance to evolve further.
 
 ### Structure
@@ -62,14 +62,14 @@ the Plupload API. This has been a source for multiple misconceptions about the A
 easily mistaken for the Plupload itself. They are only implementations, such as any of you can
 build by yourself out of the API.
 
-* [Low-level pollyfills (mOxie)](https://github.com/moxiecode/moxie) - have their own [code base](https://github.com/moxiecode/moxie) and [documentation](https://github.com/moxiecode/moxie/wiki) on GitHub.
+* [Low-level polyfills (mOxie)](https://github.com/moxiecode/moxie) - have their own [code base](https://github.com/moxiecode/moxie) and [documentation](https://github.com/moxiecode/moxie/wiki) on GitHub.
 * [Plupload API](https://github.com/moxiecode/plupload/wiki/API)
 * [UI Widget](https://github.com/moxiecode/plupload/wiki/UI.Plupload)
 * [Queue Widget](https://github.com/moxiecode/plupload/wiki/pluploadQueue)
 
 ### Building instructions
 
-Plupload depends on File API and XHR2 L2 pollyfills that currently have their
+Plupload depends on File API and XHR2 L2 polyfills that currently have their
 [own repository](https://github.com/moxiecode/moxie) on GitHub. However, in most cases you shouldn't
 care as we bundle the latest build of mOxie, including full and minified JavaScript source and
 pre-compiled `SWF` and `XAP` components, with [every release](https://github.com/moxiecode/plupload/releases). You can find everything you may need under `js/` folder.
