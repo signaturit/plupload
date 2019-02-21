@@ -15,21 +15,10 @@
         "Silverlight",
         "moxie"
     ],
-    "version": "2.3.6",
-    "releaseDate": "2017-11-03",
-    "author": "Ephox",
-    "contributors": [{
-        "name": "Davit Barbakadze",
-        "email": "davit.barbakadze@ephox.com"
-    }],
     "main": "./js/plupload.full.min",
-    "homepage": "http://plupload.com",
     "repository": {
         "type": "git",
-        "url": "https://github.com/moxiecode/plupload.git"
-    },
-    "bugs": {
-        "url": "https://github.com/moxiecode/plupload/issues"
+        "url": "https://github.com/signaturit/plupload.git"
     },
     "licenses": [{
         "type": "AGPLv3",
